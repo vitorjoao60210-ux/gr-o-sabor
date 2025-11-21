@@ -1,0 +1,53 @@
+96% de armazenamento usado … Se você atingir o limite, não será possível criar, editar ou fazer upload de arquivos. Aproveite 30 GB de armazenamento por R$ 4,50 R$ 1 por mês, durante 3 meses.
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Grão & Sabor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">☕ Grão & Sabor</h1>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html" class="ativo">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <h2>Entre em Contato</h2>
+    <p>Ficaremos felizes em ouvir você! Envie uma mensagem ou venha nos visitar.</p>
+
+    <form id="form-contato" class="form-contato" action="#" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+
+    <div class="mapa">
+      <h3>Nosso Endereço</h3>
+      <p>Rua do Café, 123 – Centro, Fortaleza – CE</p>
+      <iframe src="https://www.google.com/maps?q=Fortaleza+CE&output=embed" width="100%" height="250" style="border:0;" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Cafeteria Grão & Sabor | Desenvolvido por João Vitor e Alenir</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
